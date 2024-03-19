@@ -40,3 +40,7 @@ sites/simpletest
 
 # Ignore multi-site test environment.
 # simpletest
+
+#Ignoring contrib and node modules
+/web/themes/contrib/*
+/web/themes/custom/ankitha_subtheme/node_modules/*
