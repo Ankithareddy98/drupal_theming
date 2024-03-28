@@ -8,7 +8,20 @@
 // Include bootstrap.
 @import "../../../../themes/contrib/bootstrap5/scss/style";
 
+.region-nav-main {
+  margin: auto;
+}
+
 .test {
   background-color: red;
   color: white;
+}
+
+.goutham-test:hover {
+  background-color: red;
+  color: yellow;
+}
+
+.bg-dark {
+  background-color: yellowgreen !important;
 }
