@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Implements hook_form_alter() to add new class name to an user element.
+ */
+
+
+function mymodule_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+     
+    if ($form_id == 'user_login_form'){
+       $form['name']['#attributes']['class'][] = 'goutham-class';
+   //  $form['actions']['submit']['#value']['#string']  
+   // changing value of submit to Save 
+     $form['actions']['submit']['#value']=t('Save');
+    }
+    dump($form);
+}

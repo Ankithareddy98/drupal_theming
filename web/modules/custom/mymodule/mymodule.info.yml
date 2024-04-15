@@ -1,0 +1,6 @@
+name: 'My first custom Drupal module'
+type: module
+core_version_requirement: ^10
+description: 'Custom Module to add class name to form'
+package: 'Acquia Module Dev Course'
+

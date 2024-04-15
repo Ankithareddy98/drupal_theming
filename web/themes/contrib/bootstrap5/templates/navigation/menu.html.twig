@@ -37,7 +37,7 @@
     {% for item in items %}
       {%
         set classes_link = [
-          'nav-link',
+          'nav-link', 
           item.is_expanded ? 'dropdown-toggle',
           item.is_collapsed ? 'dropdown-toggle',
           item.in_active_trail ? 'active',
